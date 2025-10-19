@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CA1_AnimalShelter
+namespace CA1_AnimalShelter.Interfaces
 {
-    internal class Animal
+    public interface IAdoptable
     {
+        bool IsAvailableForAdoption { get; set; }
     }
 }

@@ -1,0 +1,8 @@
+﻿canine|Buddy|3|True|False|True|Dublin
+feline|Mittens|2|False|True|False|Cork
+reptile|Fluffy|1|True|True|True|Galway
+fish|Lucky|1|True|True|True|Louth
+reptile|Fluffy|20|True|True|True|Donegal
+insects|Henry|6|True|True|True|Meath
+arachnids|Hunter|5|True|True|True|Galway
+fish|Lucky|1|True|True|True|Wexford

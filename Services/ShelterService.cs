@@ -15,6 +15,13 @@ namespace CA1_AnimalShelter.Services
 
         public ShelterService()
         {
+            var directory = Path.GetDirectoryName(filePath);
+            if (!Directory.Exists(directory))
+                Directory.CreateDirectory(directory);
+
+            if (!File.Exists(filePath))
+                File.Create(filePath).Close(); // Create empty file if it doesn't exist
+
             LoadData();
         }
 
